@@ -67,9 +67,10 @@ Heart button
 ============== */
 
 .heart-btn{
-  display: inline-block;
   position: absolute;
   width: 10%;
+  top: 280px;
+  left: 10%;
 }
 .content{
   border: 2px solid black;
