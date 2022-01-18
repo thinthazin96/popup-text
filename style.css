@@ -1,6 +1,6 @@
 
 body{
-  background:linear-gradient(30deg,  #C6426E,#7c458a,#C6426E); 
+  background:linear-gradient(30deg,  #C6426E,#7c458a,#C6426E);
 }
 /* Popup container - can be anything you want */
 .popup {
@@ -16,9 +16,9 @@ body{
     width: 10%;
     height: 70px;
     border-radius: 50%;
-    
+
   }
-  
+
   /* The actual popup */
   .popup .popuptext {
     visibility: hidden;
@@ -34,20 +34,20 @@ body{
     left: 50%;
     margin-left: -80px;
   }
-  
+
   /* Toggle this class - hide and show the popup */
   .popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
   }
-  
+
   /* Add animation (fade in the popup) */
   @-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
+    from {opacity: 0;}
     to {opacity: 1;}
   }
-  
+
   @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
@@ -81,6 +81,7 @@ Heart button
   display: inline-block;
   width: 15%;
 }
+
 .content{
   border: 2px solid black;
   padding: 0px 5px 0px 5px;
@@ -88,64 +89,13 @@ Heart button
   cursor: pointer;
   display: inline-block;
 }
-#btn{
-  width: 20px; 
-  height: 20px;
-}
-#btn1{
-  width: 20px; 
-  height: 20px;
-}
-#btn2{
-  width: 20px; 
-  height: 20px;
-}
-#btn3{
-  width: 20px; 
-  height: 20px;
-}
-#btn4{
-  width: 20px; 
-  height: 20px;
-}
-#btn5{
-  width: 20px; 
-  height: 20px;
-}
-#btn6{
-  width: 20px; 
-  height: 20px;
-}
-#btn7{
-  width: 20px; 
-  height: 20px;
-}
-#btn8{
-  width: 20px; 
-  height: 20px;
-}
-#btn9{
-  width: 20px; 
-  height: 20px;
-}
-#btn10{
-  width: 20px; 
-  height: 20px;
-}
-#btn11{
-  width: 20px; 
-  height: 20px;
-}
-#btn12{
-  width: 20px; 
-  height: 20px;
-}
-#btn13{
-  width: 20px; 
+
+.likeBtn {
+  width: 20px;
   height: 20px;
 }
 
-#display{
+.display{
   font-size: 25px;
 }
 
@@ -162,7 +112,7 @@ Heart button
 .name{
   display: inline-block;
   width: 10%;
-  
+
 }
 
 .name-content{
