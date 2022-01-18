@@ -68,6 +68,7 @@ Heart button
 
 .heart-btn{
   display: inline-block;
+  position: absolute;
   width: 10%;
 }
 .content{
