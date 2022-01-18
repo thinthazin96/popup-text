@@ -61,7 +61,27 @@
     to {opacity:1 ;}
   }
 
-  /* ===============
-        Flag
-  =============== */
+  
+/* ==============
+Heart button
+============== */
+
+.heart-btn{
+  display: inline-block;
+  width: 10%;
+}
+.content{
+  border: 2px solid black;
+  padding: 0px 5px 0px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+#btn{
+  width: 20px; 
+  height: 20px;
+}
+#display{
+  font-size: 25px;
+}
 

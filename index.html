@@ -6,7 +6,6 @@
 </head>
 <body style="text-align:center">
 
-<h2>Popup</h2>
 
 <div class="container">
   <div class="popup" onclick="myFunction('myPopup1')">
@@ -18,6 +17,17 @@
           <br><br>
           <strong>Method of qualification: </strong>German defeated North Macedonia 4 - 0 at SKOPJE
       </span>
+      <div class="heart-btn">
+        <div class="content">
+            <img 
+            id="btn" 
+            src="images/heart-regular.svg" 
+            alt="heart-icon" 
+            onclick="changeHeart(); countLike();" > 
+            <span id="display">0</span>
+        </div>
+  </div>
+  
   </div>
 
   <div class="popup" onclick="myFunction('myPopup2')">
@@ -96,6 +106,8 @@
         <strong>Method of qualification: </strong>German defeated North Macedonia 4 - 0 at SKOPJE
     </span>
   </div>
+
+  <br><br><br><br><br>
 
   <div class="popup" onclick="myFunction('myPopup9')">
     <img src="images/Flag_of_Denmark.svg.png" alt="Germany" style="width: 60%; height: 70px; border-radius: 50%;">
