@@ -25,7 +25,7 @@
     border-radius: 6px;
     padding: 8px 8px 8px 8px;
     position: absolute;
-    /* z-index: 1; */
+    z-index: 1;
     bottom: 125%;
     left: 50%;
     margin-left: -80px;
@@ -49,16 +49,29 @@
     to {opacity:1 ;}
   }
 
-  
+/* ============
+    Flag
+============ */
+
+.container{
+  display: flex;
+  margin-left: 3vw;
+  margin-right: 4vw;
+}
+
 /* ==============
 Heart button
 ============== */
+.btn-container{
+  display: flex;
+  margin-left: 4vw;
+  margin-right: 3vw;
+  margin-top: 20vh;
+}
 
 .heart-btn{
-  position: absolute;
-  width: 10%;
-  top: 280px;
-  left: 10%;
+  display: inline-block;
+  width: 15%;
 }
 .content{
   border: 2px solid black;
@@ -71,16 +84,59 @@ Heart button
   width: 20px; 
   height: 20px;
 }
-#display{
-  font-size: 25px;
+#btn1{
+  width: 20px; 
+  height: 20px;
+}
+#btn2{
+  width: 20px; 
+  height: 20px;
+}
+#btn3{
+  width: 20px; 
+  height: 20px;
+}
+#btn4{
+  width: 20px; 
+  height: 20px;
+}
+#btn5{
+  width: 20px; 
+  height: 20px;
+}
+#btn6{
+  width: 20px; 
+  height: 20px;
+}
+#btn7{
+  width: 20px; 
+  height: 20px;
+}
+#btn8{
+  width: 20px; 
+  height: 20px;
+}
+#btn9{
+  width: 20px; 
+  height: 20px;
+}
+#btn10{
+  width: 20px; 
+  height: 20px;
+}
+#btn11{
+  width: 20px; 
+  height: 20px;
+}
+#btn12{
+  width: 20px; 
+  height: 20px;
+}
+#btn13{
+  width: 20px; 
+  height: 20px;
 }
 
-/* ============
-    Flag
-============ */
-
-.container{
-  display: flex;
-  margin-left: 4vw;
-  margin-right: 4vw;
+#display{
+  font-size: 25px;
 }
