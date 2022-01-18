@@ -81,4 +81,6 @@ Heart button
 
 .container{
   display: flex;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }

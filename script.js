@@ -15,8 +15,6 @@ function changeHeart() {
   // func for heart icon
   var heartId = document.getElementById("btn");
   
-
-
   // initializing var heartId to 'heart' id in html file
   if (heartId.src.match("images/heart-regular.svg")) {
       // if src of heart img is regular then change to solid
